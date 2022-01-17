@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1609096837711-47829e75af0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    margin-top: 20px;
+    color: white;
+}
+h2{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+
+}
+#counter-container{
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#increment-btn{
+    width: auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 18px;    
+    margin: 10px 0;
+
+
+    
+    
+}
+#save-btn{
+      width: auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 18px;    
+    margin: 10px 0;
+}
+#save-btn:hover{
+    background-color: rgb(49, 196, 49);
+    color: black;
+}
+#increment-btn:hover{
+    background-color: rgb(219, 58, 58);
+    color: black;
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
